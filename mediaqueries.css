@@ -7,16 +7,16 @@
 body, html {
   height: 100vh;
   display: flex;
-  flex-direction: column;   /* stack items vertically */
-  justify-content: center;  /* vertical center */
+  flex-direction: column;   
+  justify-content: center;  
 }
 
 .container1 {
-  width: 100%;              /* full width - covers sides */
+  width: 100%;              
   border: 2px solid black;
   padding: 5px;
   display: flex;
-  justify-content: space-between; /* pushes content to edges */
+  justify-content: space-between; 
   align-items: center;
   flex-wrap: wrap;
   position: relative;
@@ -46,7 +46,6 @@ body, html {
 .container2 {
   display: flex;
   gap: 10px;
-  /* border: 1px solid black; */
   padding: 5px;
   width: fit-content;
   flex-wrap: wrap;
@@ -112,4 +111,5 @@ body, html {
   .red, .orange, .white {
     display: block;
   }
+
 }
